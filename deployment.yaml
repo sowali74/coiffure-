@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: ali957/salon:${BUILD_ID}
+        image: ali957/salon:v1
         ports:
         - containerPort: 80
